@@ -19,6 +19,7 @@ RUN apt-get update && \
         python-simplejson \
         sqlite3 \
         uzbl \
+        libraspberrypi-bin \
         x11-xserver-utils \
         xserver-xorg && \
     apt-get clean
