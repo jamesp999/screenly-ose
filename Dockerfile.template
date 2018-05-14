@@ -20,6 +20,7 @@ RUN apt-get update && \
         sqlite3 \
         uzbl \
         libraspberrypi-bin \
+        cron \
         x11-xserver-utils \
         xserver-xorg && \
     apt-get clean
