@@ -1,0 +1,10 @@
+# /etc/systemd/system/monitor.timer
+[Unit] 
+Description=Run monitor-onoff on @ 0745 off @ 2230
+
+[Timer]
+OnCalendar=*-*-* 07:45:00,22:30:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
